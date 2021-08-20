@@ -3,7 +3,7 @@
 ## Basic Algorithm
   •	First try to check whether the image contains the noise or not.
   •	Later if it contains noise remove the noise and make the image denoised.
-    o	So, for image denoising we can use OTSU Thresholding, K-SVD and other techniques.
+    o	So, for image denoising we can use OTSU Thresholding, K-SVD and other techniques
     o	The one showed contains the OTSU Thresholding and Binary Thresholding (We can use K-SVD which will fetch better results).
   •	Then using OCR Techniques to extract the text from the image. 
     o	The methods which we can use over here will be PyTesseract, Google Vision API etc
